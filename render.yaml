@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: 溢得承-qq-bot
+    env: node
+    buildCommand: npm install --force && npm run build
+    startCommand: npm start
+    plan: free
+    region: oregon
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CONTACT_EMAIL
+        value: a123580910@qq.com

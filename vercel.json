@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/pages/api/**/*.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "src/pages/*.js",
+      "use": "@vercel/nextjs"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/src/pages/api/$1.js"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron-task",
+      "schedule": "0 */6 * * *"
+    }
+  ],
+  "env": {
+    "QQ_BOT_TOKEN": "${QQ_BOT_TOKEN}",
+    "QQ_API_ENDPOINT": "https://api.sgroup.qq.com"
+  },
+  "regions": ["iad1"]
+}

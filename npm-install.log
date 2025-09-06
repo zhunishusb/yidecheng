@@ -1,0 +1,12 @@
+[DEBUG] Batch file started 
+[DEBUG] Current directory: C:\Users\ASUS\Desktop\qq bot 
+[DEBUG] NODE_EXE: c:\Users\ASUS\Desktop\qq bot\node\node-v20.10.0-win-x64\node.exe 
+[DEBUG] NPM_CLI_JS: c:\Users\ASUS\Desktop\qq bot\node\node-v20.10.0-win-x64\node_modules\npm\bin\npm-cli.js 
+v20.10.0
+10.2.3
+[DEBUG] Command: "c:\Users\ASUS\Desktop\qq bot\node\node-v20.10.0-win-x64\node.exe" "c:\Users\ASUS\Desktop\qq bot\node\node-v20.10.0-win-x64\node_modules\npm\bin\npm-cli.js" install --save-dev @cloudflare/next-on-pages --registry=https://registry.npmmirror.com --force --unsafe-perm --loglevel=error 
+[DEBUG] npm install exit code: 0 
+Installation completed successfully 
+[DEBUG] Verifying package.json modification... 
+[DEBUG] Package found in package.json 
+[DEBUG] Batch file completed 

@@ -1,0 +1,8 @@
+npm ERR! code 1
+npm ERR! path C:\Users\ASUS\Desktop\qq bot\node_modules\sharp
+npm ERR! command failed
+npm ERR! command C:\Windows\system32\cmd.exe /d /s /c node install/check
+npm ERR! 'node' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+npm ERR! ���������ļ���
+
+npm ERR! A complete log of this run can be found in: C:\Users\ASUS\Desktop\qq bot\npm-cache\_logs\2025-08-31T09_54_33_557Z-debug-0.log

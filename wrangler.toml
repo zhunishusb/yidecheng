@@ -1,0 +1,28 @@
+name = "yidecheng-qq-bot"
+main = ".next/server/pages/api/index.js"
+compatibility_date = "2024-08-01"
+
+[build]
+command = "npm run build"
+publish = ".next"
+
+[[kv_namespaces]]
+binding = "KV_BOT_DATA"
+id = ""  # 部署时由Cloudflare自动分配
+preview_id = ""
+
+[[triggers]]
+cron = "0 */6 * * *"
+route = "/api/cron-task"
+
+[vars]
+QQ_BOT_TOKEN = ""
+CRON_SECRET = ""
+QQ_API_ENDPOINT = "https://api.sgroup.qq.com"
+
+[env.production]
+NODE_ENV = "production"
+
+[env.development]
+NODE_ENV = "development"
+LOG_LEVEL = "debug"

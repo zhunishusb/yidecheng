@@ -1,0 +1,33 @@
+{
+  "name": "溢得承-qq-bot-web-app",
+  "version": "1.0.0",
+  "description": "溢得承 - QQ机器人Web应用，具备自主能力和智能问答功能",","}]}}}
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm install --force && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "axios": "1.6.2",
+    "@reduxjs/toolkit": "2.0.1",
+    "react-redux": "9.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.4",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4",
+    "typescript": "5.3.3"
+  },
+  "scripts-prepend-node-path": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
